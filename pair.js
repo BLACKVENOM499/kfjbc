@@ -2138,7 +2138,7 @@ END:VCARD`
       { buttonId: `${config.PREFIX}owner`, buttonText: { displayText: "👑 OWNER" }, type: 1 }
     ];
 
-    const defaultImg = 'https://files.catbox.moe/doidej.jpg;
+    const defaultImg = 'https://files.catbox.moe/doidej.jpg';
     const useLogo = userCfg.logo || defaultImg;
 
     // build image payload (url or buffer)
